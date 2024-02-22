@@ -1,0 +1,50 @@
+:root{
+    --fondoDiv : black;
+    --colorTexto : white;
+    --colorPeligro : red;
+    --colorclaro : blue;
+    --colorJ : grey;
+    --colorDiv : yellow;
+}
+
+.nav a{
+    padding: 5px;   
+}
+nav a.home{
+    background-color:  var(--colorclaro);
+    color: var(--colorTexto);
+    border-radius: 5px;
+    padding: 10px;   
+    text-decoration: none;
+    border-radius: 5px;   
+}
+.enlaces{
+
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;   
+}
+
+
+nav a.enlaces{
+    background-color: var(--colorJ);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.texto{
+    background-color: var(--colorDiv);
+    color: var(--fondoDiv);
+}
+.noticia{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
+nav a.enlaces:hover{
+    background-color: purple;
+    color: white;
+}
+nav a.home:hover{
+    background-color: red;
+    color: white;
+}
